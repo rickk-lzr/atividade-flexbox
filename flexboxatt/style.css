@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.topo {
+    background-color: #8b0000;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 3px #ffD700;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #ffD700;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    width: 900px;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #ffD700;
+    margin-bottom: 30px;
+}
+
+.apresentacao {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 40px;
+}
+
+.apresentacao img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.info-apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-apresentacao h2 {
+    font-size: 26px;
+    text-align: left;
+    margin: 0;
+}
+
+.localizao {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffD700;
+}
+
+.grid-comodidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 260px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.card p {
+    color: #aaa;
+}
+
+.planeje {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 40px;
+}
+
+.info-estadia {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffD700;
+}
+
+.botao-central {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-depoimento {
+    width: 260px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.card-depoimento p {
+    color: #ccc;   
+}
+.estrelas {
+    color: #ffD700;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #d4af37;
+    color: #121212;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffD700;
+}
+
+.rodape {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-top: 3px solid #ffD700;
+}
+
+.rodape h3 {
+    margin: 0;
+    color: #ffD700;
+}
